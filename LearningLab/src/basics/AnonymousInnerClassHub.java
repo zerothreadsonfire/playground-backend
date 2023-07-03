@@ -1,4 +1,4 @@
-import java.util.*;
+package basics;
 
 class AnonymousInnerClassHub {
   public static void main(String[] args) {
@@ -13,7 +13,7 @@ class AnonymousInnerClassHub {
 
     parent.speak();
 
-    /* Again a new class with name decided by compiler is created and it extends 'ParentClass' and overrides the doSomething() method by providing its own implementation of it. Then an object of the new class is created. It is important to note that here ParentClass is concrete.
+    /* Again a new class with name decided by compiler is created and it extends 'basics.ParentClass' and overrides the doSomething() method by providing its own implementation of it. Then an object of the new class is created. It is important to note that here basics.ParentClass is concrete.
     */
     ParentClass parentClass = new ParentClass() {
       public void doSomething() {
