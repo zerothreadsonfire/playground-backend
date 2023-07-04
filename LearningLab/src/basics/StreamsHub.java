@@ -1,3 +1,5 @@
+package basics;
+
 import java.util.*;
 import java.util.stream.*;
 import java.util.function.*;
@@ -51,7 +53,8 @@ class StreamsHub {
     // System.out.println(map);
 
     System.out.println("<---- Filter ---->");
-    /** Filter - replacement for if-ele condition. Intermediate opn.
+    /** Filter - replacement for if-ele condition. Intermediate opn. It accepts a Predicate which is a Functional Interface
+     * with SAM test() that returns a boolean.
     */
     list.stream().filter(employee -> employee.salary <= 800).forEach(value -> System.out.println(value));
     
