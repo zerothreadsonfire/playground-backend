@@ -1,10 +1,10 @@
-package io.github.zerothreadsonfire.springbootplayground;
+package io.github.zerothreadsonfire.playgroundbackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootPlaygroundApplicationTests {
+class PlaygroundBackendApplicationTests {
 
 	@Test
 	void contextLoads() {

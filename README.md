@@ -1,3 +1,0 @@
-# Backend Playground
-
-### CRUD REST
